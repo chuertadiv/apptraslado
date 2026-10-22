@@ -1,0 +1,39 @@
+name: Supabase database validation
+
+on:
+  pull_request:
+    paths:
+      - "supabase/**"
+      - ".github/workflows/supabase-ci.yml"
+  push:
+    branches:
+      - main
+    paths:
+      - "supabase/**"
+      - ".github/workflows/supabase-ci.yml"
+
+permissions:
+  contents: read
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Install Supabase CLI
+        uses: supabase/setup-cli@v1
+        with:
+          version: 2.121.0
+
+      - name: Start local Supabase
+        run: supabase start
+
+      - name: Rebuild database from migrations
+        run: supabase db reset
+
+      - name: Lint database
+        run: supabase db lint --local --level warning
