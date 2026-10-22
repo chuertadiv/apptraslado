@@ -21,3 +21,10 @@ npx supabase db reset
 ```
 
 La configuración, las migraciones y las políticas de seguridad están documentadas en [supabase/README.md](supabase/README.md).
+
+## Documentación
+
+- [Registro de cambios](CHANGELOG.md)
+- [Configuración y operación de Supabase](supabase/README.md)
+
+Todo cambio de código, infraestructura, seguridad o configuración debe incluir su documentación en el mismo commit.

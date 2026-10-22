@@ -1,0 +1,16 @@
+---
+description: Exige documentar todos los cambios realizados en el proyecto
+alwaysApply: true
+---
+
+# Documentación obligatoria
+
+- Todo cambio sustantivo debe actualizar su documentación dentro del mismo commit.
+- Registrar en `CHANGELOG.md` las funcionalidades, correcciones, cambios de seguridad, migraciones y decisiones operativas.
+- Actualizar el README correspondiente cuando cambien instalación, configuración, arquitectura, comandos o variables de entorno.
+- Documentar contratos HTTP en OpenAPI y mantenerlos sincronizados con su implementación.
+- Crear una ADR en `docs/adr/` cuando una decisión afecte arquitectura, seguridad, persistencia o integraciones.
+- Las migraciones deben explicar su propósito mediante un nombre descriptivo y documentación operativa asociada.
+- La entrega final debe indicar archivos modificados, pruebas ejecutadas, resultados, riesgos y trabajo pendiente.
+- Nunca incluir contraseñas, tokens, claves privadas ni valores secretos en la documentación.
+- No considerar completado un cambio mientras su documentación esté desactualizada.
