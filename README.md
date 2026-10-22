@@ -26,5 +26,6 @@ La configuración, las migraciones y las políticas de seguridad están document
 
 - [Registro de cambios](CHANGELOG.md)
 - [Configuración y operación de Supabase](supabase/README.md)
+- [Herramientas, costos y rutinas](docs/TOOLING.md)
 
 Todo cambio de código, infraestructura, seguridad o configuración debe incluir su documentación en el mismo commit.

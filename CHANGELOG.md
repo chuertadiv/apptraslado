@@ -7,6 +7,8 @@ Todos los cambios relevantes del proyecto se documentan en este archivo. El form
 ### Documentación
 
 - Se incorporó una regla permanente que exige actualizar documentación, contratos y registro de cambios en cada implementación.
+- Se documentaron las herramientas, planes gratuitos, alternativas open source y rutinas habituales del proyecto.
+- Se incorporó una regla para evitar servicios pagados sin evaluación y autorización explícita.
 
 ## 2026-10-22
 

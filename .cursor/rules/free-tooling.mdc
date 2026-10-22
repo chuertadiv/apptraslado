@@ -1,0 +1,16 @@
+---
+description: Prioriza herramientas gratuitas y documenta todo el tooling del proyecto
+alwaysApply: true
+---
+
+# Herramientas y costos
+
+- Priorizar herramientas gratuitas, open source o con plan gratuito suficiente para desarrollo.
+- Preferir ejecución local cuando evite costos sin comprometer seguridad ni mantenibilidad.
+- Antes de incorporar un servicio pagado, explicar costo, motivo, alternativas gratuitas y momento en que será necesario.
+- No activar add-ons, facturación ni recursos pagados sin autorización explícita.
+- Mantener `docs/TOOLING.md` actualizado con cada herramienta, propósito, licencia o plan, instalación y uso habitual.
+- Documentar scripts, automatizaciones, workflows y rutinas de desarrollo en el README correspondiente.
+- Fijar versiones de herramientas críticas para evitar cambios inesperados.
+- No sacrificar backups, seguridad, trazabilidad ni recuperación productiva solo para mantener costo cero.
+- Distinguir claramente entre herramientas aptas para desarrollo gratuito y requisitos obligatorios de producción.
