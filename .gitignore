@@ -1,0 +1,27 @@
+# Dependencies and builds
+node_modules/
+dist/
+coverage/
+.turbo/
+
+# Environment and credentials
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Supabase local state
+supabase/.branches/
+supabase/.temp/
+
+# Editors and operating systems
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+npm-debug.log*
+pnpm-debug.log*
